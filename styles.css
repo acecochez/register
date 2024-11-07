@@ -72,6 +72,8 @@ textarea {
   min-height: 60px;
   min-width: 300px;
   color: grey;
+  max-width: 500px;
+  max-height: 100px;
 }
 
 input {
