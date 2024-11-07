@@ -1,0 +1,87 @@
+<!-- HTML & CSS REQ -->
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="styles.css"></link>
+
+<!-- HEAD -->
+<head>
+<title>Survey form</title>
+</head>
+
+<!-- BODY -->
+<body>
+<div class="top">
+  <fieldset name="top-field">
+  <h1 id="title">REGISTER</h1>
+  <p id="description">Thank you for testing Ace's sign-up model!</p>
+  </fieldset>
+</div>
+
+<!-- FORM-->
+<div class="survey">
+  <fieldset name="form-field">
+  <form id="survey-form">
+    <!-- NAME -->
+    <article>
+    <label for="name" id="name-label">Name: <input type="text" id="name" placeholder="Enter your name.." required></label></input>
+    </article>
+
+    <!-- EMAIL -->
+    <article>
+    <label for="email" id="email-label">Email: <input type="email" id="email" placeholder="Enter your email.." required></label></input>
+    </article>
+
+    <!-- AGE -->
+    <article>
+    <label for="age" id="number-label">Age: <input type="number" id="number" placeholder="Age.." min="13" max="100" required></label></input>
+    </article>
+
+    <!-- ROLE SELECT -->
+    <article>
+    <label for="dropdown">Current role: </label>
+    <select id="dropdown">
+      <!-- NULL -->
+      <option id="null">
+       Select role..
+      </option>
+      <!-- DEVELOPER -->
+      <option id="developer">
+       Developer
+      </option>
+      <!-- STUDENT -->
+      <option id="student">
+        Student
+      </option>
+      <option id="other">
+        Other
+      </option>
+      </select>
+    </article>
+
+    <!-- BUSINESS OR EMPLOYEE -->
+    <article>
+      <legend>Representing: </legend>
+      <!-- BUSINESS -->
+      <label for="business"><input name="radio" type="radio" id="business" value="business" class="inline" checked>A business</input></label>
+      <!-- EMPLOYEE -->
+      <label for="employee"><input name="radio" type="radio" id="employee" value="employee" class="inline">An employee</input></label>
+    </article>  
+
+    <article>
+      <label>Reason for sign-up: </label>
+      <textarea>I am registering because.. </textarea>
+    </article
+      <!-- CHECKBOX -->
+    <article>
+      <label for="newsletter"><input type="checkbox" class="inline" value="newsletter">Sign up for newsletter</label></input>
+      <label for ="t&c"><input type="checkbox" class="inline" value="t&c's">Agree to terms & conditions</label></input>
+
+      <!-- SUBMIT -->
+      <button id="submit" type="submit">Submit</button>
+      </article>
+
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+h1 {
+  font-family: Verdana;
+  color: white;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+#name, #email {
+  min-width: 150px;
+}
+
+#age {
+  min-width: 200px;
+}
+
+.top {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+  background-color: rgba(106, 83, 212, 60%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-width: 800px;
+}
+
+.survey {
+  color: white;
+  background-color: rgba(80, 40, 140, 80%);
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.inline {
+  display: inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+label, legend {
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  margin: 0.5rem 0;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+label[for="employee"], label[for="business"], label[for="newsletter"], label[for="t&c"] {
+  font-size: 18px;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+select {
+  display: block;
+  min-height: 35px;
+  border-radius: 8px;
+  
+}
+
+textarea {
+  display: block;
+  min-height: 60px;
+  min-width: 300px;
+  color: grey;
+}
+
+input {
+  width: 100%;
+  min-height: 35px;
+  border-radius: 8px;
+}
+
+fieldset[name="top-field"] {
+  border: none;
+}
+
+fieldset[name="form-field"] {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+  border-width: 5px;
+}
+
+fieldset[name="representing"] {
+  border: none;
+}
+
+fieldset[name="checkboxes"] {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: white;
+}
+
+button {
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 20px;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1398473177/photo/questionnaire-with-checkboxes-filling-survey-form-online-answer-questions.jpg?s=612x612&w=0&k=20&c=sgZY6ojUqB0goVyn_9fKLfeyZ6lyWjSb3-FQjgeUPec=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
